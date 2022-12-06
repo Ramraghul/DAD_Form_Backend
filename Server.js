@@ -8,7 +8,7 @@ const formData = require('./Src/Routes/formRoute');
 
 //Middleware;
 App.use(express.json());
-App.use(cors({ origin: "http://localhost:3000"}))
+App.use(cors({ origin: "https://dad-form-frontend.vercel.app"}))
 
 
 
